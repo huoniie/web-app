@@ -1,5 +1,6 @@
-## I.Internet, Web và mô hình hoạt động
+# I.Internet, Web và mô hình hoạt động
 
+  ## 1.Khái niệm cơ bản
   ### Internet
   - **Khái niệm**
     
@@ -50,3 +51,15 @@
 
 Internet không chỉ kết nối và chia sẻ thông tin nhanh chóng mà còn đóng vai trò
 quan trọng trong giáo dục,kinh doanh,giải trí và nhiều lĩnh vực khác
+
+### Web
+
+### World Wide Web (Web3)
+
+### Web Application
+
+## 2.So sánh các khái niệm
+
+## 3.Mô hình client - Server và Frontend - Backend - Database 
+
+
