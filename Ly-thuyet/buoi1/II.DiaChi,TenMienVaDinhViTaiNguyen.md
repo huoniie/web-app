@@ -37,38 +37,12 @@ IP riêng là địa chỉ IP được sử dụng trong mạng cục bộ (LAN)
 **Nhược điểm**
 
 Với IPv4, số lượng địa chỉ IP có hạn,
-
-Note: IP Address còn có thể được sử dụng để định vị địa lý tương đối của thiết bị, hỗ trợ các ứng dụng như bản đồ trực tuyến và quảng cáo nhắm mục tiêu. Trong lĩnh vực bảo mật mạng, IP Address được sử dụng để kiểm soát truy cập và ngăn chặn các hoạt động độc hại, tăng cường an ninh cho hệ thống mạng.
-
-  ### Đối tượng sử dụng
-  
- - Người dùng cá nhân
- - Doanh nghiệp
- - Tổ chức chính phủ
- - Nhà cung cấp dịch vụ internet
- - Nhà phát triển ứng dụng và dịch vụ trực tuyến
-
-### Lưu ý khi sử dụng
-
- - Lựa chọn loại địa chỉ phù hợp
- - Đảm bỏa an ninh và bảo mật
- - Bảo vệ quyền riêng tư
- - Hiểu rõ về IPv4 và IPv6
- - Tìm hiểu về NAT và DHCP
- - Kiểm tra và quản lý địa chỉ IP 
-  
-  ## Tên miền ( Domain )
+## Domain
   Domain (tên miền) là địa chỉ dễ nhớ của một website trên Internet, ví dụ google.com, vnexpress.net, claude.ai. Nó là “tên” thay cho dãy số IP khó nhớ (như 142.250.190.14).
 
-Dùng để làm gì?
-Truy cập website: gõ tên miền thay vì địa chỉ IP.
-Email theo tên riêng: ví dụ ten@congty.com, trông chuyên nghiệp hơn Gmail/Yahoo.
-Xây dựng thương hiệu: tên miền là “biển hiệu” của doanh nghiệp, cá nhân trên mạng.
-Tạo uy tín: website có tên miền riêng được tin tưởng hơn.
-SEO: giúp website dễ được tìm thấy trên Google nếu chọn tên tốt.
-Cách hoạt động
+Dùng để 
+Truy cập website-> rất nhiều cái từ đây
 
-Khi bạn gõ tên miền, hệ thống DNS (Domain Name System) sẽ “dịch” tên miền thành địa chỉ IP của máy chủ chứa website, rồi trình duyệt mới tải trang về.
 
 Cấu trúc tên miền
 
@@ -129,11 +103,12 @@ Tạo liên kết (hyperlink) giữa các trang.
 
 ### URN
 
+(định danh bằng tên, không chỉ vị trí)
 
 URI = cách để gọi tên/định danh một tài nguyên.
 URL = URI có thêm thông tin chỉ đường để tìm thấy tài nguyên đó.
 URN = URI chỉ đặt tên, không chỉ đường.
 
-   URI
-├── URL  (định danh + vị trí, cách truy cập)
-└── URN  (định danh bằng tên, không chỉ vị trí)
+   - URI
++  URL  (định danh + vị trí, cách truy cập)
++  URN  (định danh bằng tên, không chỉ vị trí)
