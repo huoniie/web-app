@@ -4,8 +4,6 @@
 
   HTML là ngôn ngữ **đánh dấu** tiêu chuẩn để tạo các trang 
     
-    + ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang web.
-    
     + mô tả cấu trúc của một trang web ( tiêu đề , liên kết , bảng , đoạn văn và nhiều yếu tố khác).
     
     + bao gồm một loạt các phần tử.
@@ -14,23 +12,7 @@
 
         Các phần tử HTML dùng để gắn nhãn cho các phần nội dung, ví dụ như "đây là tiêu đề","đây là đoạn văn", "đây là liên kết", v.v.
   
- -  **Một tài liệu HTML đơn giản**
 
-<img width="362" height="288" alt="image" src="https://github.com/user-attachments/assets/d5f1a2de-15d5-4fd9-b5c6-27c2581642ef" />
-
-        + Phần <!DOCTYPE html>khai báo xác định rằng tài liệu này là tài liệu HTML5.
-        
-        + Phần <html>tử <element> là phần tử gốc của một trang HTML.
-        
-        + Phần tử này <head> chứa thông tin meta về trang HTML.
-        
-        + Phần tử này <title>chỉ định tiêu đề cho trang HTML (tiêu đề này sẽ được hiển thị trên thanh tiêu đề của trình duyệt hoặc trong tab của trang).
-        
-        + Phần tử này <body>xác định phần thân của tài liệu và là vùng chứa cho tất cả nội dung hiển thị, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng,               danh sách, v.v.
-        
-        + Phần tử này <h1> định nghĩa một tiêu đề lớn.
-        
-        + Phần tử này <p> định nghĩa một đoạn văn.
 
 - **Phần tử HTML**
 
@@ -73,13 +55,7 @@ Trình duyệt không hiển thị các thẻ HTML, mà sử dụng chúng để
   Note: Nội dung bên trong phần <body> sẽ được hiển thị trong trình duyệt. Nội dung bên trong phần tử <title> sẽ được hiển thị trên thanh tiêu đề của trình duyệt hoặc trong tab của trang.
 
 
-- **Cơ chế**
 
-  <img width="677" height="341" alt="image" src="https://github.com/user-attachments/assets/c0b7398b-d260-461b-a518-087ce485d42e" />
-
-  -Một tập tin <- các phần tử HTML <(bao bọc)- 1 cặp thẻ
-
-  <img width="710" height="528" alt="image" src="https://github.com/user-attachments/assets/741e5a9d-42bb-480e-83b3-31cf6062175f" />
 
 - **Ưu điểm và hạn chế**
     
@@ -97,7 +73,7 @@ Trình duyệt không hiển thị các thẻ HTML, mà sử dụng chúng để
            
     + **Hạn chế**
 
-           + Chức năng chính của HTML là lập trình cho các trang web tĩnh, do đó nếu bạn cần tạo các trang có tính năng động thì có thể kết hợp cùng JavaScript hoặc các                   ngôn ngữ backend khác. 
+           + Chức năng chính của HTML là lập trình cho các trang web tĩnh, do đó nếu bạn cần tạo các trang có tính năng động thì có thể kết hợp cùng JavaScript hoặc các ngôn ngữ backend khác. 
 
             + Người dùng phải tạo từng file HTML riêng lẻ, ngay cả khi cấu trúc phần tử giống nhau.
 
@@ -112,31 +88,17 @@ Trình duyệt không hiển thị các thẻ HTML, mà sử dụng chúng để
 HTML tags có hai loại chính là block-level tags (phần tử cấp khối) và inline tags (phần tử nội tuyến). Trong đó:
 
         + Block-level Tags được sử dụng cho toàn không gian của web và bắt đầu bằng
-          dòng mới của trang. Một số thẻ block-level tags trong HTML như <html>, <div>, <p>,<table> và <body>. 
+          dòng mới của trang.
           
         + Ngược lại, Inline Tags chỉ chiếm một phần nhỏ trên không gian web và không cần
-          bắt đầu bằng dòng mới trên trang. Thường được sử dụng để tạo bố cục và định dạng
-          cho phần nội dung của Block-Level Tags. Một số thẻ Inline phổ biến như <a>, <span>, <b>, <i>,…
-
+          bắt đầu bằng dòng mới trên trang. 
 ## 2.CSS (Cascading Style Sheets)
 
 ### Khái niệm
 
-Là ngôn ngữ style sheets, được sử dụng để mô tả cách trình bày các tài liệu được viết bằng ngôn ngữ đánh dấu (HTML, XML, SVG). CSS giúp kiểm soát cách trình bày của các yếu tố HTML gồm:
+Là ngôn ngữ style sheets, được sử dụng để mô tả cách trình bày các tài liệu được viết bằng ngôn ngữ đánh dấu (HTML, XML, SVG). CSS giúp kiểm soát cách trình bày của các yếu tố HTML 
 
-Màu sắc: 
 
-Phông chữ: 
-
-Bố cục:
-
-Hiệu ứng: 
-
-mô tả cách các phần tử HTML được hiển thị trên màn hình, giấy hoặc các phương tiện khác.
-
-giúp tiết kiệm rất nhiều công sức. Nó có thể điều khiển bố cục của nhiều trang web cùng một lúc.
-
-Các bảng định kiểu bên ngoài được lưu trữ trong các tệp CSS.
 
 ### Một ví dụ đơn giản
   
@@ -147,23 +109,6 @@ Kết quả hiển thị
   <img width="480" height="214" alt="image" src="https://github.com/user-attachments/assets/e2477dcd-7aa7-4a39-86fc-a08e194ca415" />
 
 
-### Cơ chế hoạt động
-
-<img width="929" height="518" alt="image" src="https://github.com/user-attachments/assets/c27bebfe-ab6c-4208-80ba-203aa8abaefc" />
-
-### Vai trò 
-
-Có 3 cách thêm CSS vào trang web HTML là Inline CSS (CSS nội tuyến), Internal CSS (CSS nội bộ) và External CSS (CSS bên ngoài). 
-
-      + Định dạng và tạo kiểu cho website
-
-      + Tách biệt nội dung và định dạng
-
-      + Tăng khả năng truy cập
-
-      + Tối ưu hóa hiệu suất website
-
-      + Tăng khả năng bảo trì
 
 ### Cấu trúc
 
@@ -186,17 +131,7 @@ Các thuộc tính cơ bản của CSS
       + Hiệu ứng
 
 
-### Các thao tác thiết kế giao diện cơ bản
 
-**Thay đổi màu sắc**
-
-**Định dạng bố cục**
-
-**Định dạng văn bản**
-
-**Căn chỉnh hình ảnh**
-        
-- **Ưu điểm và hạn chế**
 
   **Ưu điểm**
 
@@ -226,16 +161,10 @@ là một ngôn ngữ lập trình, chạy dưới dạng ngôn ngữ kịch b�
           Là ngôn ngữ lightweight (dễ học và viết code nhanh)
           Là ngôn ngữ đa mô hình (multi-paradigm) và đơn luồng (single threaded).
 
-### Cơ chế
 
 
-### JS làm được
 
-**Sẽ ra sao nếu không có js**
 
-90% website sẽ ở dạng tĩnh 
-
- nhúng mã thực thi vào trang web, phản hồi tương tác của người dùng và thay đổi bố cục, nội dung trên trang web như:
 
 ### Ưu điểm và hạn chế
 
@@ -259,7 +188,6 @@ Hiệu suất:
 Độ phức tạp: 
 
 
-Note: JavaScript vừa là ngôn ngữ biên dịch và thông dịch. 
 
 
 
