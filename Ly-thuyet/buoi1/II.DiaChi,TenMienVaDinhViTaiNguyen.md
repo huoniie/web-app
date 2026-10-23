@@ -106,9 +106,11 @@ Tạo liên kết (hyperlink) giữa các trang.
 (định danh bằng tên, không chỉ vị trí)
 
 URI = cách để gọi tên/định danh một tài nguyên.
+
 URL = URI có thêm thông tin chỉ đường để tìm thấy tài nguyên đó.
+
 URN = URI chỉ đặt tên, không chỉ đường.
 
    - URI
-+  URL  (định danh + vị trí, cách truy cập)
-+  URN  (định danh bằng tên, không chỉ vị trí)
+        +  URL  (định danh + vị trí, cách truy cập)
+        +  URN  (định danh bằng tên, không chỉ vị trí)
