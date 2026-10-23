@@ -7,34 +7,6 @@
     là một hệ thống mạng toàn cầu kết nối hàng tỷ thiết bị như máy tính, điện thoại,
   máy chủ và nhiều thiết bị thông minh khác thông qua giao thức truyền dữ liệu chung.
 
- 
-- **Đặc điểm:**
-
-  + Phạm vi toàn cầu
-
-  + Khả năng chia sẻ thông tin nhanh
-
-  + Hoạt động liên tục
-
-  + Hỗ trợ nhiều dịch vụ
-
-  + Khả năng mở rộng cao
-
-- **Lợi ích mang lại**
-
-  + Tiếp cận thông tin
-
-  + Giao tiếp
-
-  + Học tập
-
-  + Làm việc
-
-  + Giải trí
-  
-  Tạo ra nhiều cơ hội phát triển
-
-
 
 ### Web
 
