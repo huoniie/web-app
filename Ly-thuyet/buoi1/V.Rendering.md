@@ -6,13 +6,13 @@
     
     + ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang web.
     
-    + mô tả cấu trúc của một trang web( tiêu đề , liên kết , bảng , đoạn văn và nhiều yếu tố khác).
+    + mô tả cấu trúc của một trang web ( tiêu đề , liên kết , bảng , đoạn văn và nhiều yếu tố khác).
     
     + bao gồm một loạt các phần tử.
 
         Các phần tử cho trình duyệt biết cách hiển thị nội dung.
 
-        Các phần tử HTML dùng để gắn nhãn cho các phần nội dung, ví dụ như "đây là tiêu đề",            "đây là đoạn văn", "đây là liên kết", v.v.
+        Các phần tử HTML dùng để gắn nhãn cho các phần nội dung, ví dụ như "đây là tiêu đề","đây là đoạn văn", "đây là liên kết", v.v.
   
  -  **Một tài liệu HTML đơn giản**
 
@@ -22,15 +22,15 @@
         
         + Phần <html>tử <element> là phần tử gốc của một trang HTML.
         
-        + Phần tử này <head>chứa thông tin meta về trang HTML.
+        + Phần tử này <head> chứa thông tin meta về trang HTML.
         
-        + Phần tử này <title>chỉ định tiêu đề cho trang HTML (tiêu đề này sẽ được hiển thị             trên thanh tiêu đề của trình duyệt hoặc trong tab của trang).
+        + Phần tử này <title>chỉ định tiêu đề cho trang HTML (tiêu đề này sẽ được hiển thị trên thanh tiêu đề của trình duyệt hoặc trong tab của trang).
         
-        + Phần tử này <body>xác định phần thân của tài liệu và là vùng chứa cho tất cả nội             dung hiển thị, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng,               danh sách, v.v.
+        + Phần tử này <body>xác định phần thân của tài liệu và là vùng chứa cho tất cả nội dung hiển thị, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng,               danh sách, v.v.
         
-        + Phần tử này <h1>định nghĩa một tiêu đề lớn.
+        + Phần tử này <h1> định nghĩa một tiêu đề lớn.
         
-        + Phần tử này <p>định nghĩa một đoạn văn.
+        + Phần tử này <p> định nghĩa một đoạn văn.
 
 - **Phần tử HTML**
 
@@ -85,9 +85,9 @@ Trình duyệt không hiển thị các thẻ HTML, mà sử dụng chúng để
     
     + **Ưu điểm**
       
-          + HTML được hỗ trợ rộng rãi và hoạt động mượt mà trên trình duyệt web như                      Chrome, FireFox, Safari. Bên cạnh đó còn hỗ trợ các phiên bản mới của Internet               Explorer và Edge.
+          + HTML được hỗ trợ rộng rãi và hoạt động mượt mà trên trình duyệt web như Chrome, FireFox, Safari. Bên cạnh đó còn hỗ trợ các phiên bản mới của Internet Explorer và Edge.
       
-          + Sử dụng bộ mã nguồn mở và miễn phí, không cần phải mua thêm bất kỳ phần mềm nào              khác.
+          + Sử dụng bộ mã nguồn mở và miễn phí, không cần phải mua thêm bất kỳ phần mềm nào khác.
       
           + Linh hoạt, dễ tìm hiểu và sử dụng.
       
@@ -97,33 +97,45 @@ Trình duyệt không hiển thị các thẻ HTML, mà sử dụng chúng để
            
     + **Hạn chế**
 
-           + Chức năng chính của HTML là lập trình cho các trang web tĩnh, do đó nếu bạn cần              tạo các trang có tính năng động thì có thể kết hợp cùng JavaScript hoặc các                   ngôn ngữ backend khác. 
+           + Chức năng chính của HTML là lập trình cho các trang web tĩnh, do đó nếu bạn cần tạo các trang có tính năng động thì có thể kết hợp cùng JavaScript hoặc các                   ngôn ngữ backend khác. 
 
-            + Người dùng phải tạo từng file HTML riêng lẻ, ngay cả khi cấu trúc phần tử                     giống nhau.
+            + Người dùng phải tạo từng file HTML riêng lẻ, ngay cả khi cấu trúc phần tử giống nhau.
 
-            + Cấu trúc phức tạp, bạn sẽ cần viết rất nhiều đoạn mã để có thể tạo nên một                   trang web đơn giản. 
+            + Cấu trúc phức tạp, bạn sẽ cần viết rất nhiều đoạn mã để có thể tạo nên một trang web đơn giản. 
 
-            + Tính năng bảo mật còn bị hạn chế, dễ dẫn đến việc bị rò rỉ thông tin và bị                   hack dữ liệu. 
+            + Tính năng bảo mật còn bị hạn chế, dễ dẫn đến việc bị rò rỉ thông tin và bị  hack dữ liệu. 
+
             + Một số trình duyệt còn chậm cập nhật, chưa hỗ trợ các tính năng mới của HTML.
+      
 - **HTML tag**
+
 HTML tags có hai loại chính là block-level tags (phần tử cấp khối) và inline tags (phần tử nội tuyến). Trong đó:
 
         + Block-level Tags được sử dụng cho toàn không gian của web và bắt đầu bằng
-          dòng mới của trang. Một số thẻ block-level tags trong HTML như <html>, <div>, <p>,           <table> và <body>.  
+          dòng mới của trang. Một số thẻ block-level tags trong HTML như <html>, <div>, <p>,<table> và <body>. 
+          
         + Ngược lại, Inline Tags chỉ chiếm một phần nhỏ trên không gian web và không cần
           bắt đầu bằng dòng mới trên trang. Thường được sử dụng để tạo bố cục và định dạng
           cho phần nội dung của Block-Level Tags. Một số thẻ Inline phổ biến như <a>, <span>, <b>, <i>,…
 
 ## 2.CSS (Cascading Style Sheets)
+
 ### Khái niệm
-à ngôn ngữ style sheets, được sử dụng để mô tả cách trình bày các tài liệu được viết bằng ngôn ngữ đánh dấu (HTML, XML, SVG). CSS giúp kiểm soát cách trình bày của các yếu tố HTML gồm:
-Màu sắc: Màu nền, màu chữ, màu viền,…
-Phông chữ: Kiểu chữ, kích thước chữ, độ dày chữ,…
-Bố cục: Vị trí các yếu tố, kích thước, căn chỉnh,…
-Hiệu ứng: Hiệu ứng chuyển tiếp, hiệu ứng di chuột,…
+
+Là ngôn ngữ style sheets, được sử dụng để mô tả cách trình bày các tài liệu được viết bằng ngôn ngữ đánh dấu (HTML, XML, SVG). CSS giúp kiểm soát cách trình bày của các yếu tố HTML gồm:
+
+Màu sắc: 
+
+Phông chữ: 
+
+Bố cục:
+
+Hiệu ứng: 
 
 mô tả cách các phần tử HTML được hiển thị trên màn hình, giấy hoặc các phương tiện khác.
+
 giúp tiết kiệm rất nhiều công sức. Nó có thể điều khiển bố cục của nhiều trang web cùng một lúc.
+
 Các bảng định kiểu bên ngoài được lưu trữ trong các tệp CSS.
 
 ### Một ví dụ đơn giản
@@ -155,11 +167,13 @@ Có 3 cách thêm CSS vào trang web HTML là Inline CSS (CSS nội tuyến), In
 
 ### Cấu trúc
 
-Toàn bộ cấu trúc của CSS được gọi là một bộ quy tắc với 2 phần chính gồm: Bộ chọn (selector), Khối khai báo (Declaration Blocks).
+ - Bộ chọn (selector)
+ 
+ - Khối khai báo (Declaration Blocks).
 
-Bộ chọn giúp xác định phần tử HTML cần muốn định dạng. Có nhiều loại bộ chọn khác nhau gồm: Bộ chọn theo thẻ (element selector), Bộ chọn theo class (class selector), Bộ chọn theo ID (id selector), Bộ chọn con cháu (descendant selector), Bộ chọn anh em (sibling selector).
+Bộ chọn giúp xác định phần tử HTML cần muốn định dạng. 
 
-Khai báo giúp xác định thuộc tính (property) và giá trị (value) của thuộc tính đó để định dạng cho phần tử được chọn. Các khai báo thường được ngăn cách với nhau bởi dấu “;”. Khối bao gồm một hoặc nhiều khai báo được đặt trong ngoặc nhọn {}.
+Khối khai báo giúp xác định thuộc tính (property) và giá trị (value) của thuộc tính đó để định dạng cho phần tử được chọn. Các khai báo thường được ngăn cách với nhau bởi dấu “;”. Khối bao gồm một hoặc nhiều khai báo được đặt trong ngoặc nhọn {}.
 
 Các thuộc tính cơ bản của CSS
 
@@ -176,60 +190,29 @@ Các thuộc tính cơ bản của CSS
 
 **Thay đổi màu sắc**
 
-        Sử dụng thuộc tính color để thay đổi màu sắc của text.
-        Sử dụng thuộc tính background-color để thay đổi màu nền của phần tử HTML.
-        Sử dụng thuộc tính gradient để tạo hiệu ứng chuyển màu cho nền của phần tử HTML.
-        Sử dụng thuộc tính filter để thêm các hiệu ứng filter cho phần tử HTML.
-
 **Định dạng bố cục**
-        
-        Sử dụng thuộc tính margin để tạo khoảng cách giữa body và các phần tử khác.
-        Sử dụng thuộc tính padding để tạo khoảng cách giữa nội dung body và đường viền.
-        Sử dụng thuộc tính text-align để căn lề text sang trái, phải, giữa hoặc hai đầu.
-        Sử dụng display: flex để kích hoạt flexbox cho body.
-        Sử dụng các thuộc tính flexbox như justify-content và align-items để căn chỉnh các phần tử theo chiều ngang và chiều dọc.
-
 
 **Định dạng văn bản**
 
-        Sử dụng thuộc tính font-family: để chọn font chữ cho phần tử HTML.
-        Sử dụng thuộc tính font-size: để định cỡ font chữ.
-        Sử dụng thuộc tính font-weight: để định độ dày mỏng của font chữ.
-        Sử dụng thuộc tính font-style: để định kiểu chữ như normal, italic, oblique,…
-        Sử dụng thuộc tính text-transform: để chuyển đổi kiểu chữ như uppercase, lowercase, capitalize,…
-        Sử dụng thuộc tính letter-spacing: để điều chỉnh khoảng cách giữa các ký tự.
-        Sử dụng thuộc tính word-spacing: để điều chỉnh khoảng cách giữa các từ.
-        Sử dụng thuộc tính text-shadow: để thêm bóng đổ cho text.
-
-
 **Căn chỉnh hình ảnh**
         
-        Sử dụng thuộc tính margin: để tạo khoảng cách giữa hình ảnh và các phần tử khác.
-        Sử dụng thuộc tính float: để di chuyển hình ảnh sang trái hoặc phải.
-        Sử dụng thuộc tính text-align: để căn chỉnh hình ảnh trong một phần tử block.
-        Sử dụng display: flex để kích hoạt flexbox cho phần tử chứa hình ảnh.
-        Sử dụng các thuộc tính flexbox như justify-content và align-items để căn chỉnh hình ảnh theo chiều ngang và chiều dọc.
-        Sử dụng display: grid để kích hoạt grid layout cho phần tử chứa hình ảnh.
-        Sử dụng các thuộc tính grid layout như grid-template-columns và grid-template-rows để xác định kích thước của các cột và hàng.
-        Sử dụng các thuộc tính grid layout như justify-content và align-items để căn chỉnh hình ảnh trong grid.
-
 - **Ưu điểm và hạn chế**
 
   **Ưu điểm**
 
-        Tách biệt nội dung và giao diện: CSS nội bộ và CSS bên ngoài có thể tách biệt nội dung (HTML) và giao diện (CSS) của website, giúp cho việc quản lý và cập nhật website dễ dàng hơn.
-        Kiểm soát giao diện: CSS cho phép bạn kiểm soát hoàn toàn giao diện của website, bao gồm màu sắc, font chữ, bố cục, v.v.
-        Responsive design: CSS giúp bạn tạo ra website có thể tự động thích ứng với kích thước màn hình của mọi thiết bị.
-        Tăng tốc độ tải trang: CSS bên ngoài giúp giảm kích thước của trang web bằng cách tách biệt nội dung và giao diện.
-        Tăng khả năng truy cập: CSS giúp website dễ sử dụng hơn cho người dùng có khiếm khuyết.
+        Tách biệt nội dung và giao diện 
+        Kiểm soát giao diện
+        Responsive design
+        Tăng tốc độ tải trang
+        Tăng khả năng truy cập
 
 **Hạn chế**
 
-        Khó học: CSS có thể khó học đối với người mới bắt đầu.
-        Phụ thuộc vào trình duyệt: Các trình duyệt khác nhau có thể hiển thị một số thành phần CSS khác nhau.
-        Khó khăn trong việc debug: Việc tìm kiếm lỗi CSS có thể khó khăn. Tuy nhiên, bạn có thể nhờ tới sự hỗ trợ của Chrome DevTools hoặc Firefox Developer Edition.
-        Khả năng tương tác hạn chế: CSS không thể tạo ra các hiệu ứng tương tác phức tạp.
-
+        Khó học
+        Phụ thuộc vào trình duyệt
+        Khó khăn trong việc debug
+        Khả năng tương tác hạn chế
+        
 ## 3.JavaScript
 
 ### Khái niệm
@@ -237,7 +220,6 @@ Các thuộc tính cơ bản của CSS
 là một ngôn ngữ lập trình, chạy dưới dạng ngôn ngữ kịch bản phía máy khách trong môi trường hosting. Môi trường hosting phổ biến nhất là trình duyệt web, dùng ngôn ngữ này để tạo tính tương tác cho trang web. 
 
 ### Đặc điểm
-
 
           Là ngôn ngữ kịch bản (scripting language) hướng đối tượng.
           Là ngôn ngữ nhập động (dynamic typing) dựa trên prototype.
@@ -248,14 +230,12 @@ là một ngôn ngữ lập trình, chạy dưới dạng ngôn ngữ kịch b�
 
 
 ### JS làm được
+
 **Sẽ ra sao nếu không có js**
-Nếu không có JavaScript, trang web sẽ chỉ có HTML và CSS. Khi đó, 90% website sẽ ở dạng tĩnh như một cuốn sách.
 
-Ngôn ngữ lập trình này được tạo ra để web developer có thể nhúng mã thực thi vào trang web, cho phép trình duyệt web phản hồi tương tác của người dùng và thay đổi bố cục, nội dung trên trang web như:
+90% website sẽ ở dạng tĩnh 
 
-        Nút có thể nhấp vào, menu thả xuống 
-        Nội dung bổ sung khi làm mới trang
-        Màu sắc của các phần tử thay đổi linh hoạt trên trang.
+ nhúng mã thực thi vào trang web, phản hồi tương tác của người dùng và thay đổi bố cục, nội dung trên trang web như:
 
 ### Ưu điểm và hạn chế
 
@@ -273,47 +253,17 @@ Có nhiều framework & thư viện.
 **Nhược điểm **
 
 Rủi ro bảo mật: 
-JavaScript có thể được sử dụng để tải dữ liệu bằng AJAX hoặc bằng cách thao tác với các thẻ tải dữ liệu như <img>, <object>, <script>. Các cuộc tấn công này được gọi là tấn công tập lệnh chéo trang.
 
 Hiệu suất: 
-JavaScript có hiệu suất hạn chế hơn các ngôn ngữ truyền thống. Một chương trình phức tạp nếu viết bằng ngôn ngữ này sẽ chạy tương đối chậm. Dù vậy, nó thường được dùng để thực hiện các tác vụ đơn giản trong trình duyệt, do đó hiệu suất không được coi là một hạn chế quá lớn.
 
 Độ phức tạp: 
-Để có thể viết các tập lệnh nâng cao bằng JavaScript, developer cần có kiến ​​thức sâu về tất cả các khái niệm lập trình, các đối tượng ngôn ngữ cốt lõi, các đối tượng phía máy khách và máy chủ.
 
 
 Note: JavaScript vừa là ngôn ngữ biên dịch và thông dịch. 
 
 
 
-## 4.Mối liên hệ giữa HTML, CSS và JavaScript
-
-HTML được xem là một nền tảng cơ bản trong quá trình triển khai một website, nhưng một mình HTML vẫn chưa đủ để tạo nên một website hoàn chỉnh và chuyên nghiệp. Chính vì vậy, các lập trình viên thường kết hợp HTML với hai ngôn ngữ front-end khác là CSS và JavaScript để tạo nên một website hoàn chỉnh.
-
-Khi kết hợp giữa HTML, CSS và JavaScript sẽ giúp website tăng trải nghiệm người dùng hiệu quả với một số chức năng cơ bản như:
-
-          + Bên cạnh HTML tạo các thành phần của một trang web thì CSS sẽ đóng vai trò thiết lập màu sắc, background, hiệu ứng,.. phù hợp với ý tưởng của website.
-          + Còn JavaScript sẽ có vai trò biến các cấu trúc thành phần thành thứ người dùng có thể tương tác, cụ thể là tạo ra các tính năng động như slider, pop-up,…
-          + Bạn có thể hiểu đơn giản, HTML cung cấp phần xương của trang web, CSS phụ trách phần da và JavaScript sẽ là đầu não quan trọng.
-
-
-          HTML xác định cấu trúc và nội dung của trang web.
-          CSS đặt cách trình bày và thiết kế giao diện trang web.
-          JavaScript bổ sung tính tương tác cho trang web, tạo ra các ứng dụng web phong phú hơn.
-
-          <img width="485" height="268" alt="image" src="https://github.com/user-attachments/assets/6ed18f91-9fde-4172-9a99-f253793c24aa" />
-
-
-**Ví dụ**
-
- bạn muốn tạo một trang web cho người dùng điền biểu mẫu tham gia một cuộc thi, thì:
-
-          + HTML: Tạo các thông tin về cuộc thi, biểu mẫu (họ tên, tuổi, địa chỉ,…) dưới dạng những đoạn mã văn bản. 
-          
-          + CSS: Chỉnh sửa các đoạn văn bản theo bố cục hợp lý như định dạng bảng, màu sắc, kiểu dáng,.. Đồng thời giúp bạn tạo nên các ô điền câu trả lời cho người dùng. 
-          
-          + JavaScript: Cho phép bạn lập trình một popup hiển thị “Cảm ơn bạn đã tham gia” khi bạn đã điền đầy đủ thông tin và bấm gửi. 
-## 5 Vai trò của HTML, CSS, JavaScript trong PE
+##  4 Vai trò của HTML, CSS, JavaScript trong PE
 
 **HTML tạo ra cái nút, CSS làm nó đẹp, JS làm nó phản ứng khi được bấm.**
 
@@ -324,81 +274,51 @@ Cách nhớ nhanh: HTML = cái gì, CSS = trông thế nào, JS = làm gì.
 ##SSR
 
 ### Cơ chế server-side rendering
-Cơ chế server-side rendering đã được dùng từ thuở xưa ơi là xưa. Gọi nó là server-side rendering là vì phần lớn logic sẽ được xử lý ở server:
+phần lớn logic sẽ được xử lý ở server:
 
-Khi người dùng vào một trang web, trình duyệt sẽ gửi GET request tới web server
-Web server sẽ nhận request, đọc dữ liệu từ database.
-Web server sẽ render HTML, trả về cho browser để hiển thị cho người dùng
-
+Vào web -(trình đuyệt)> server - > dọc dữ liệu từ database -> gửi về cho người dùng
 
 <img width="806" height="547" alt="image" src="https://github.com/user-attachments/assets/7742a0d0-1369-4941-b39e-01fabd28c1bc" />
 
-Một số tính chất của cơ chế server side rendering:
-
-Logic từ đơn giản (validation, đọc dữ liệu) cho đến phức tạp (phân quyền, thanh toán) đều nằm ở phía server
-Logic để routing – chuyển trang nằm ở server
-Logic để render – hiển thị trang web cũng nằm ở server nốt
+mọi thứ làm đều ở server
 
 ### Ưu điểm và hạn chế  
 
 **Ưu điểm**
 
-Initial load nhanh, dễ otpimize, vì toàn bộ dữ liệu đã được xử lý ở server. Client chỉ việc hiển thị.
-Các web framework từ xưa đến nay đều hỗ trợ cơ chế này
-Dễ hiểu và dễ code hơn. Developer chỉ cần code 1 project web là được, không cần phải tách ra front-end và back-end
-SEO tốt vì khi bot của Google, Bing vào web sẽ thấy toàn bộ dữ liệu dưới dạng HTML.
-Chạy được trên phần lớn mọi trình duyệt, kể cả disable JavaScript vẫn chạy tốt
+Trang web load nhanh 
 
+thời điểm này không có khái niệm frontend và backend vì mọi thứ xử lý đều nằm trên đều nằm trên server còn client chỉ hiển thị
 **Hạn chế**
-
-Mỗi lần người dùng chuyển trang là site phải load lại nhiều lần, gây khó chịu
-Nặng server vì server phải xử lý nhiều logic và dữ liệu. Có thể sử dụng caching để giảm tải.
-Tốn băng thông vì server phải gửi nhiều dữ liệu thừa và trùng  (HTML, header, footer). Có thể sử dụng CDN để giảm tải.
-Tương tác không tốt như Client Side rendering vì trang phải refresh, load lại nhiều lần.
+vì mỗi lần đều phải gửi về server để xử lý -> chậm -> load nhiều lần 
 
 
 
 ## CSR
 
 ### Cơ chế server-side rendering
-Developer bắt đầu build ứng dụng dưới dạng SPA – Single Page Application. Ứng dụng nằm trong 1 page duy nhất nên được gọi là Single Page Application.
-
-Client Side Rendering tức là việc render HTML, CSS sẽ được thực hiện ở client (Tức JavaScript ở trình duyệt).
 
 <img width="827" height="441" alt="image" src="https://github.com/user-attachments/assets/0c75c30e-194b-4fe5-9d34-12917739a605" />
 
 
-So với Server Side Rendering (SSR) , Client Side Rendering (CSR) có những đặc điểm sau:
-
-Những logic đơn giản (validation, đọc dữ liệu, sorting, filtering) nằm ở client side
-
-Logic để routing (chuyển trang), render (hiển thị) dữ liệu thì 96.69% là nằm ở client side
-
-Logic phức tạp (thanh toán, phân quyền) hoặc cần xử lý nhiều (data processing, report) vẫn nằm ở server side.
+mấy cái yêu cầu đơn giản sẽ được thực hiện trong client luôn còn mấy cái quá phức tạp vẫn cần chuyển về bên server để chạy
 
 
 <img width="806" height="547" alt="image" src="https://github.com/user-attachments/assets/7742a0d0-1369-4941-b39e-01fabd28c1bc" />
 
-Một số tính chất của cơ chế server side rendering:
-
-Logic từ đơn giản (validation, đọc dữ liệu) cho đến phức tạp (phân quyền, thanh toán) đều nằm ở phía server
-Logic để routing – chuyển trang nằm ở server
-Logic để render – hiển thị trang web cũng nằm ở server nốt
 
 ### Ưu điểm và hạn chế  
 
 **Ưu điểm**
 
-Page chỉ cần load một lần duy nhất. Khi user chuyển trang hoặc thêm dữ liệu, JavaScript sẽ lấy và gửi dữ liệu từ server qua AJAX. User có thể thấy dữ liệu mới mà không cần chuyển trang.
-Chuyển logic sang client nên giảm tải được một phần cho server.
-Giảm được băng thông do chỉ cần lấy JSON và dữ liệu cần thiết, thay vì phải lấy toàn bộ trang
-Với các ứng dụng cần tương tác nhiều, SPA hoạt động mượt mà hơn vì code chạy trên browser, không cần load đi loại lại nhiều
+
+không cần load lại nhiều nó hiện luôn như tin nhắn ấy
 
 **Hạn chế**
 
-Initial load sẽ chậm hơn nếu không biết optimize. Lý do là broser phải tải toàn bộ JavaScript về (khá nặng), parse và chạy JS, gọi API để lấy dữ liệu từ server (chậm), sau đó render dữ liệu
+
 Đòi hỏi project phải chia làm 2 phần riêng là back-end (REST api) và front-end nên khó code hơn
-Không chạy được nếu JavaScript bị disable, hoặc ở các trình duyệt cũ không nhận JavaScript ES6 (Có thể dùng transpiler và polyfill nhưng sẽ làm tăng kích cỡ file js)
+
 SEO không tốt bằng Server Side Rendering (Do bot crawl không đọc được dữ liệu). Để giải quyết, ta phải kết hợp thêm SSR (Bot mới của Google đọc được client-side rendering rồi).
 Nếu client sử dụng mobile, device yếu thì khi load sẽ bị chậm
 
