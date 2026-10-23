@@ -23,4 +23,5 @@
   	Path Parameter và Query Parameter?
   	FE khi gọi API thì luồng request response diễn ra như nào?
   ## 5. Rendering	HTML, CSS, JS có vai trò gì trong FE
+    HTML, CSS, JS có vai trò gì trong FE
   	SSR (Server Side Rendering) & CSR (Client Side Rendering)
