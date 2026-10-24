@@ -4,7 +4,7 @@
 
 HTTP (HyperText Transfer Protocol) là giao thức để client và server trao đổi dữ liệu. Mỗi lần trao đổi gồm một request (yêu cầu) và một response (phản hồi).
 
-#### HTTP Request (client gửi lên server)
+#### HTTP Request (client gửi lên server)(Không hiểu bản chất)
 
 Request line: method + đường dẫn + phiên bản HTTP.
 
@@ -14,7 +14,7 @@ Dòng trống ngăn cách.
 
 Body (không bắt buộc): dữ liệu gửi kèm, thường có ở POST/PUT (ví dụ JSON, dữ liệu form).
 
-### HTTP Response (server trả về client)
+### HTTP Response (server trả về client)(không hiểu bản chất)
 
 Status line: phiên bản HTTP + mã trạng thái + mô tả.
 
