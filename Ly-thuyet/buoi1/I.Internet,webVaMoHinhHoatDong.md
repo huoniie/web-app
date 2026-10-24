@@ -31,6 +31,8 @@ Web Application (ứng dụng web): ứng dụng chạy trên trình duyệt, ch
 Client (máy khách): thiết bị gửi yêu cầu (request). Ví dụ: trình duyệt trên điện thoại, laptop của bạn.
 Server (máy chủ): máy tính mạnh, hoạt động liên tục, nhận yêu cầu và trả về phản hồi (response).
 
+client bên yêu cầu tài nguyên server cung cấp tài nguyên 
+
 ### Frontend - Backend - Database 
 
 **Frontend (giao diện)**
