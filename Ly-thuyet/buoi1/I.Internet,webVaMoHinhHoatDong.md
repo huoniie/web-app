@@ -3,7 +3,7 @@
  ## 1.Khái niệm cơ bản
    ### Internet
   
-    là một hệ thống mạng toàn cầu kết nối hàng tỷ thiết bị như máy tính, điện thoại,
+  là một hệ thống mạng toàn cầu kết nối hàng tỷ thiết bị như máy tính, điện thoại,
   máy chủ và nhiều thiết bị thông minh khác thông qua giao thức truyền dữ liệu chung.
 
 
