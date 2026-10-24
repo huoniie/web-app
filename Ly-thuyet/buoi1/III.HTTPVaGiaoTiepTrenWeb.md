@@ -7,14 +7,19 @@ HTTP (HyperText Transfer Protocol) là giao thức để client và server trao 
 #### HTTP Request (client gửi lên server)
 
 Request line: method + đường dẫn + phiên bản HTTP.
+
 Headers: thông tin bổ sung (domain, loại trình duyệt, loại dữ liệu chấp nhận, cookie, token đăng nhập...).
+
 Dòng trống ngăn cách.
+
 Body (không bắt buộc): dữ liệu gửi kèm, thường có ở POST/PUT (ví dụ JSON, dữ liệu form).
 
 ### HTTP Response (server trả về client)
 
 Status line: phiên bản HTTP + mã trạng thái + mô tả.
+
 Headers: thông tin về phản hồi (loại nội dung, độ dài, cookie, cache...).
+
 Body: nội dung thật sự (HTML, JSON, ảnh, file...).
 
 note:  HTTP là giao thức không lưu trạng thái (stateless), mỗi request độc lập, server không tự nhớ request trước. Vì vậy cần cookie, session, token để “nhớ” người dùng.
