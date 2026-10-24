@@ -1,9 +1,8 @@
 # I.Internet, Web và mô hình hoạt động
 
-  ## 1.Khái niệm cơ bản
-  ### Internet
-  - **Khái niệm**
-    
+ ## 1.Khái niệm cơ bản
+   ### Internet
+  
     là một hệ thống mạng toàn cầu kết nối hàng tỷ thiết bị như máy tính, điện thoại,
   máy chủ và nhiều thiết bị thông minh khác thông qua giao thức truyền dữ liệu chung.
 
@@ -20,12 +19,10 @@ Website là một tập hợp các trang web (web page) thuộc về cùng một
 
 Web Application (ứng dụng web): ứng dụng chạy trên trình duyệt, cho phép người dùng tương tác, thao tác, xử lý dữ liệu, thường có đăng nhập và nội dung cá nhân hóa.
 
-## 2.So sánh các khái niệm
+## 2.So sánh 
 <img width="674" height="202" alt="image" src="https://github.com/user-attachments/assets/3bc151a2-f78b-41ad-8cf2-41a773436526" />
 
 <img width="661" height="204" alt="image" src="https://github.com/user-attachments/assets/8fe3d5b7-60bd-4dfc-96c0-e0567ee168bf" />
-
-
 
 ## 3.Mô hình client - Server và Frontend - Backend - Database 
 
