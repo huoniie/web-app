@@ -16,6 +16,12 @@ REST API: phổ biến nhất, dùng URL + HTTP method (GET, POST, PUT, DELETE).
 GraphQL: client tự chọn chính xác dữ liệu cần lấy qua một endpoint.
 gRPC, SOAP, WebSocket: dùng cho các nhu cầu đặc thù.
 
+## 3.JSON
+
+JSON (JavaScript Object Notation) là định dạng văn bản dùng để lưu và trao đổi dữ liệu. Nó dễ đọc với con người, dễ xử lý với máy, và là định dạng phổ biến nhất khi FE và BE nói chuyện với nhau qua API.
+
+
+
 ## 3. Endpoint
 
 Endpoint là một địa chỉ (URL) cụ thể của API mà client gọi tới để thực hiện một chức năng. Mỗi endpoint thường kết hợp URL + HTTP method.
