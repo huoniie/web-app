@@ -11,21 +11,13 @@
 
   **IPv4 (Internet Protocol version 4)**
   
-IPv4  Nó sử dụng 32 bit  Địa chỉ IPv4 được biểu diễn dưới dạng **bốn nhóm số thập phân**,**mỗi nhóm từ 0 đến 255**, cách nhau bởi **dấu chấm** (ví dụ: 192.168.1.1).
+IPv4  Nó sử dụng 32 bit  Địa chỉ IPv4 được biểu diễn dưới dạng **bốn nhóm số thập phân**,**mỗi nhóm từ 0 đến 255**, cách nhau bởi **dấu chấm** (ví dụ: 192.168.1.1). 4.3 tỷ
 
 **Pv6 (Internet Protocol version 6)**
 
 IPv6 là phiên bản địa chỉ IP mới hơn, được phát triển để giải quyết vấn đề cạn kiệt địa chỉ IPv4. Nó sử dụng 128 bit,
 
 Địa chỉ IPv6 được biểu diễn dưới dạng **tám nhóm số hexa**, **mỗi nhóm 16 bit**, cách nhau bởi **dấu hai chấm**). 
-
-**IP công cộng (Public IP)**
-
-IP công cộng là địa chỉ IP được gán cho thiết bị của bạn bởi nhà cung cấp dịch vụ internet (ISP)
-
-**IP riêng (Private IP)**
-
-IP riêng là địa chỉ IP được sử dụng trong mạng cục bộ (LAN), chẳng hạn như mạng gia đình hoặc mạng văn phòng.  một mạng LAN.
 
 
 ### Ưu điểm và hạn chế
@@ -37,21 +29,34 @@ IP riêng là địa chỉ IP được sử dụng trong mạng cục bộ (LAN)
 **Nhược điểm**
 
 Với IPv4, số lượng địa chỉ IP có hạn,
+
 ## Domain
+
   Domain (tên miền) là địa chỉ dễ nhớ của một website trên Internet, ví dụ google.com, vnexpress.net, claude.ai. Nó là “tên” thay cho dãy số IP khó nhớ (như 142.250.190.14).
 
 Dùng để 
-Truy cập website-> rất nhiều cái từ đây
 
+Truy cập website-> rất nhiều cái từ đây
 
 Cấu trúc tên miền
 
 Ví dụ: blog.example.com.vn
 
 vn: tên miền cấp cao nhất (TLD, ở đây là quốc gia Việt Nam)
+
 com.vn: tên miền cấp 2
+
 example: phần tên chính do bạn đặt
+
 blog: tên miền phụ (subdomain)
+
+
+## DNS
+
+DNS là cách mà máy đọc hiểu được URL có địa chỉ nào
+
+<img width="622" height="441" alt="image" src="https://github.com/user-attachments/assets/7f7969e8-bfef-47ef-84a5-f089851a3fe6" />
+
   
   ## Định vị tài nguyên
   
@@ -68,12 +73,12 @@ Là số nguyên từ 0 đến 65535.
 
 Phân loại port
             
-            0 - 1023: well-known ports, dành cho dịch vụ chuẩn.
+            0 - 1023:  dành cho dịch vụ chuẩn.(đồ mặc định)
             
+            1024 - 49151:  dành cho ứng dụng đã đăng ký.
             
-            1024 - 49151: registered ports, dành cho ứng dụng đã đăng ký.
+            49152 - 65535:  hệ thống cấp tạm thời cho kết nối đi ra.
             
-            49152 - 65535: dynamic/private ports, hệ thống cấp tạm thời cho kết nối đi ra.
             Một số port thông dụng
             
 Port	Dịch vụ
@@ -85,6 +90,7 @@ Port	Dịch vụ
 - 110	POP3 (nhận email)
 - 143	IMAP (nhận email)
 - 443	HTTPS (web bảo mật)
+
 - 3306	MySQL
 - 3389	Remote Desktop (Windows)
 - 5432	PostgreSQL
